@@ -15,7 +15,7 @@
 
 ```bash
 # 1. 克隆项目并进入目录
-cd TravelAgent
+cd travel-agent
 
 # 2. 运行快速启动脚本
 chmod +x docker-start.sh
