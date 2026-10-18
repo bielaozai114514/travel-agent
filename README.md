@@ -229,6 +229,8 @@ TravelAgent/
 
 ## 📦 快速开始
 
+> 想最快跑起来？直接用 Docker 一键启动 MySQL + Qdrant + 后端 + 前端，见 [DOCKER.md](DOCKER.md)。
+
 ### 系统要求
 - Python 3.10+
 - Node.js 18+
@@ -237,8 +239,8 @@ TravelAgent/
 
 ### 1. 克隆项目
 ```bash
-git clone <repo_url>
-cd TravelAgent
+git clone https://github.com/bielaozai114514/travel-agent.git
+cd travel-agent
 ```
 
 ### 2. 后端启动
