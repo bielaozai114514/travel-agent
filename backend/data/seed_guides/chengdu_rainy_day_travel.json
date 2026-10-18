@@ -1,0 +1,13 @@
+{
+  "import_key": "chengdu_rainy_day_travel",
+  "title": "成都雨天游玩攻略",
+  "city": "成都",
+  "summary": "适配成都阴雨天气的专属游玩攻略，规划全室内、连廊遮雨游玩路线，涵盖博物馆、熊猫基地室内馆、古刹回廊、商圈逛吃，配套美食、住宿、交通和雨天专属避坑建议。",
+  "content_file": "chengdu_rainy_day_travel.md",
+  "content_format": "markdown",
+  "tags": ["成都", "雨天游玩", "室内景点", "四川博物院", "大熊猫基地", "文殊院", "太古里", "住宿", "避坑", "雨天备选"],
+  "status": "published",
+  "is_official": true,
+  "is_ai_generated": false,
+  "author_username": "admin"
+}

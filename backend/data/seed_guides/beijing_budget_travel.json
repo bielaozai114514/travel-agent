@@ -1,0 +1,13 @@
+{
+  "import_key": "beijing_budget_travel",
+  "title": "北京低预算游玩攻略",
+  "city": "北京",
+  "summary": "学生党、背包穷游专属北京低预算攻略，精选大量免费景点、地铁公交省钱出行、平价美食高性价比住宿，不花冤枉钱也能玩转北京经典地标。",
+  "content_file": "beijing_budget_travel.md",
+  "content_format": "markdown",
+  "tags": ["北京", "低预算", "穷游", "免费景点", "学生旅游", "省钱攻略", "地铁出行", "住宿避坑", "雨天备选"],
+  "status": "published",
+  "is_official": true,
+  "is_ai_generated": false,
+  "author_username": "admin"
+}

@@ -1,0 +1,13 @@
+{
+  "import_key": "hangzhou_westlake_1d",
+  "title": "杭州西湖一日游攻略",
+  "city": "杭州",
+  "summary": "专为时间有限的游客打造的杭州西湖一日游攻略，串联断桥、白堤、平湖秋月、孤山、雷峰塔等核心景点，配套餐饮、住宿、交通、避坑及雨天替代方案，适合单日短途打卡。",
+  "content_file": "hangzhou_westlake_1d.md",
+  "content_format": "markdown",
+  "tags": ["杭州", "一日游", "西湖", "断桥", "雷峰塔", "环湖游玩", "美食", "住宿", "避坑", "雨天备选"],
+  "status": "published",
+  "is_official": true,
+  "is_ai_generated": false,
+  "author_username": "admin"
+}

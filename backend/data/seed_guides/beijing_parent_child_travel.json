@@ -1,0 +1,13 @@
+{
+  "import_key": "beijing_parent_child_travel",
+  "title": "北京亲子游攻略",
+  "city": "北京",
+  "summary": "北京亲子专属游玩攻略，规划低步行、少爬坡的三日亲子行程，涵盖中轴线、天坛、科技馆、皇家园林，配套亲子美食、宜居住宿、地铁交通及雨天备选、避坑指南。",
+  "content_file": "beijing_parent_child_travel.md",
+  "content_format": "markdown",
+  "tags": ["北京", "亲子游", "带娃出行", "故宫", "天坛", "中国科技馆", "颐和园", "住宿", "避坑", "雨天备选"],
+  "status": "published",
+  "is_official": true,
+  "is_ai_generated": false,
+  "author_username": "admin"
+}

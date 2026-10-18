@@ -1,0 +1,13 @@
+{
+  "import_key": "xiamen_gulangyu_travel",
+  "title": "厦门鼓浪屿游玩攻略",
+  "city": "厦门",
+  "summary": "厦门鼓浪屿完整游玩攻略，包含登岛船票预约、经典游览路线、必打卡景点、闽南美食、住宿选址、轮渡交通及岛上各类避坑、雨天备选方案。",
+  "content_file": "xiamen_gulangyu_travel.md",
+  "content_format": "markdown",
+  "tags": ["厦门", "鼓浪屿", "海岛游玩", "文艺小巷", "日光岩", "菽庄花园", "轮渡攻略", "美食住宿", "避坑"],
+  "status": "published",
+  "is_official": true,
+  "author_username": "admin",
+  "is_ai_generated": false
+}

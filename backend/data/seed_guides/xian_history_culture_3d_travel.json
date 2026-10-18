@@ -1,0 +1,13 @@
+{
+  "import_key": "xian_history_culture_3d_travel",
+  "title": "西安历史文化三日游攻略",
+  "city": "西安",
+  "summary": "西安十三朝古都历史文化三日游攻略，串联城墙钟鼓楼、兵马俑华清宫、陕历博、大唐不夜城核心人文景点，配套美食住宿地铁交通、预约须知及雨天避坑方案。",
+  "content_file": "xian_history_culture_3d_travel.md",
+  "content_format": "markdown",
+  "tags": ["西安", "三日游", "历史文化", "兵马俑", "西安城墙", "钟鼓楼", "陕历博", "大唐不夜城", "美食住宿", "避坑"],
+  "status": "published",
+  "is_official": true,
+  "author_username": "admin",
+  "is_ai_generated": false
+}

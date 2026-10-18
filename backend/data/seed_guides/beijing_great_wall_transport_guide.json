@@ -1,0 +1,33 @@
+{
+  "import_key": "beijing_great_wall_transport_guide",
+  "title": "北京长城游玩与交通攻略",
+  "city": "北京",
+  "summary": "面向第一次来北京、长城一日游、老人亲子出行、预算有限游客和担心低价团交通踩坑用户的长城攻略，覆盖八达岭长城、慕田峪长城、居庸关长城的适合人群、交通方式、季节建议、一日游节奏、低价团与黑车避坑，帮助用户根据体力、预算和行程选择合适的长城游玩方案。",
+  "content_file": "beijing_great_wall_transport_guide.md",
+  "content_format": "markdown",
+  "tags": [
+    "北京",
+    "长城",
+    "八达岭",
+    "慕田峪",
+    "居庸关",
+    "交通",
+    "一日游",
+    "老人",
+    "亲子",
+    "预算",
+    "防坑",
+    "低价团",
+    "黑车",
+    "高铁",
+    "公交",
+    "旅游专线",
+    "缆车",
+    "索道",
+    "远郊游"
+  ],
+  "status": "published",
+  "is_official": true,
+  "is_ai_generated": false,
+  "author_username": "admin"
+}

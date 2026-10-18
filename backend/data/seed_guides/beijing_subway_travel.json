@@ -1,0 +1,13 @@
+{
+  "import_key": "beijing_subway_travel_guide",
+  "title": "北京地铁出行攻略",
+  "city": "北京",
+  "summary": "北京专属地铁出行全攻略，整理所有必玩景点对应地铁站点、乘车教程、顺路游玩路线、住宿选站技巧，搭配避坑要点和雨天出行方案，新手靠地铁就能玩遍北京。",
+  "content_file": "beijing_subway_travel.md",
+  "content_format": "markdown",
+  "tags": ["北京", "地铁攻略", "交通出行", "景点地铁直达", "自由行交通", "住宿选地铁口", "避坑", "雨天出行"],
+  "status": "published",
+  "is_official": true,
+  "is_ai_generated": false,
+  "author_username": "admin"
+}

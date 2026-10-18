@@ -1,0 +1,30 @@
+{
+  "import_key": "hangzhou_classic_2d1n_route",
+  "title": "杭州两天一晚经典游攻略",
+  "city": "杭州",
+  "summary": "面向第一次来杭州、周末短途、老人亲子出行和预算有限游客的两天一晚经典路线攻略，围绕西湖东线、白堤、苏堤局部、湖滨、河坊街、南宋御街、灵隐寺、飞来峰以及龙井茶文化、博物馆和运河街区等备选路线，帮助用户在有限时间内完成经典且不绕路的杭州行程。",
+  "content_file": "hangzhou_classic_2d1n_route.md",
+  "content_format": "markdown",
+  "tags": [
+    "杭州",
+    "两天一晚",
+    "经典路线",
+    "首次游",
+    "西湖",
+    "湖滨",
+    "白堤",
+    "苏堤",
+    "灵隐寺",
+    "飞来峰",
+    "河坊街",
+    "南宋御街",
+    "龙井",
+    "周末游",
+    "亲子",
+    "老人"
+  ],
+  "status": "published",
+  "is_official": true,
+  "is_ai_generated": false,
+  "author_username": "admin"
+}

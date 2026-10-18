@@ -1,0 +1,13 @@
+{
+  "import_key": "hangzhou_first_time_travel",
+  "title": "杭州第一次来旅游攻略",
+  "city": "杭州",
+  "summary": "专为初次到访杭州的游客定制三日完整版旅游攻略，覆盖西湖、灵隐寺、梅家坞、小河直街、大运河、钱江新城等必玩景点，含路线规划、美食、住宿、交通及新手专属避坑建议。",
+  "content_file": "hangzhou_first_time_travel.md",
+  "content_format": "markdown",
+  "tags": ["杭州", "第一次来", "三日游", "西湖", "灵隐寺", "梅家坞", "大运河", "新手攻略", "住宿", "避坑", "雨天备选"],
+  "status": "published",
+  "is_official": true,
+  "is_ai_generated": false,
+  "author_username": "admin"
+}

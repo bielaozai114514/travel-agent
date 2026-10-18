@@ -1,0 +1,13 @@
+{
+  "import_key": "beijing_elderly_relax_travel",
+  "title": "北京老人轻松游攻略",
+  "city": "北京",
+  "summary": "专为老人、体力偏弱游客定制北京慢节奏轻松游，精选平地少台阶古建园林，配套清淡美食、适老住宿、便捷地铁交通、避坑指南及雨天室内备选方案。",
+  "content_file": "beijing_elderly_relax_travel.md",
+  "content_format": "markdown",
+  "tags": ["北京", "老人游", "慢节奏", "天坛", "雍和宫", "颐和园", "古建休闲", "清淡美食", "住宿避坑", "雨天备选"],
+  "status": "published",
+  "is_official": true,
+  "is_ai_generated": false,
+  "author_username": "admin"
+}

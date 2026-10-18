@@ -1,0 +1,13 @@
+{
+  "import_key": "hangzhou_elder_3d2n",
+  "title": "杭州3天2晚老人轻松游攻略",
+  "city": "杭州",
+  "summary": "这是一篇面向老人和亲子游客的杭州3天2晚轻松游攻略，重点覆盖西湖、灵隐寺、西溪湿地等低强度景点，并提供住宿区域、交通方式、餐饮建议和避坑提醒。",
+  "content_file": "example_hangzhou_elder_3d2n.md",
+  "content_format": "markdown",
+  "tags": ["杭州", "三日游", "老人友好", "轻松", "西湖", "灵隐寺", "西溪湿地", "住宿", "避坑", "雨天备选"],
+  "status": "published",
+  "is_official": true,
+  "is_ai_generated": false,
+  "author_username": "admin"
+}

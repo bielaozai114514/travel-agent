@@ -1,0 +1,13 @@
+{
+  "import_key": "chengdu_parent_child_travel",
+  "title": "成都亲子游攻略",
+  "city": "成都",
+  "summary": "适合亲子家庭带小朋友游玩的成都三日游攻略，涵盖大熊猫基地、四川博物院、公园文创街区等亲子友好景点，配套清淡美食、宜居住宿、便捷交通及雨天备选、避坑实用建议。",
+  "content_file": "chengdu_parent_child_travel.md",
+  "content_format": "markdown",
+  "tags": ["成都", "亲子游", "三日游", "大熊猫基地", "四川博物院", "公园休闲", "亲子友好", "住宿", "避坑", "雨天备选"],
+  "status": "published",
+  "is_official": true,
+  "is_ai_generated": false,
+  "author_username": "admin"
+}

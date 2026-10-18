@@ -1,0 +1,13 @@
+{
+  "import_key": "xian_night_tour_food",
+  "title": "西安夜游与美食攻略",
+  "city": "西安",
+  "summary": "西安专属夜游+美食全套攻略，精选大唐不夜城、钟鼓楼、城墙夜景路线，整理必吃陕味美食、美食街区、逛吃避坑，配套住宿交通和雨天夜游方案。",
+  "content_file": "xian_night_tour_food_guide.md",
+  "content_format": "markdown",
+  "tags": ["西安", "西安夜游", "美食攻略", "大唐不夜城", "钟鼓楼", "永兴坊", "回民街", "夜景打卡", "逛吃避坑"],
+  "status": "published",
+  "is_official": true,
+  "author_username": "admin",
+  "is_ai_generated": false
+}

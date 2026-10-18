@@ -1,0 +1,13 @@
+{
+  "import_key": "xian_budget_travel",
+  "title": "西安低预算旅游攻略",
+  "city": "西安",
+  "summary": "学生党背包穷游专属西安低预算攻略，精选大量免费打卡景点、地铁公交省钱出行、平价本地美食、高性价比住宿，不花冤枉钱玩转西安古迹夜景与美食。",
+  "content_file": "xian_budget_travel.md",
+  "content_format": "markdown",
+  "tags": ["西安", "低预算", "穷游", "免费景点", "学生旅游", "省钱攻略", "西安夜游", "美食避坑", "住宿避坑"],
+  "status": "published",
+  "is_official": true,
+  "author_username": "admin",
+  "is_ai_generated": false
+}

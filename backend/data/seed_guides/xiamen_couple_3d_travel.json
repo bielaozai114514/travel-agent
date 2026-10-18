@@ -1,0 +1,13 @@
+{
+  "import_key": "xiamen_couple_3d_travel",
+  "title": "厦门情侣三日游攻略",
+  "city": "厦门",
+  "summary": "厦门情侣浪漫三日游攻略，串联鼓浪屿、厦大芙蓉隧道、环岛路、沙坡尾、曾厝垵网红浪漫点位，搭配美食住宿交通、拍照打卡及雨天备用行程。",
+  "content_file": "xiamen_couple_3d_travel.md",
+  "content_format": "markdown",
+  "tags": ["厦门", "情侣游", "三日游", "鼓浪屿", "环岛路", "沙坡尾", "曾厝垵", "文艺打卡", "浪漫旅行", "避坑"],
+  "status": "published",
+  "is_official": true,
+  "author_username": "admin",
+  "is_ai_generated": false
+}

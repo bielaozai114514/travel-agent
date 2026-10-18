@@ -1,0 +1,13 @@
+{
+  "import_key": "hangzhou_food_catering_guide",
+  "title": "杭州美食与餐饮选择攻略",
+  "city": "杭州",
+  "summary": "杭州专属美食餐饮攻略，涵盖老字号杭帮菜、特色小吃、茶园农家菜、平价连锁餐厅，给出不同人群就餐选择、美食路线、住宿交通及餐饮避坑技巧，适配所有来杭旅游游客。",
+  "content_file": "hangzhou_food_catering_guide.md",
+  "content_format": "markdown",
+  "tags": ["杭州", "美食攻略", "餐饮选择", "杭帮菜", "特色小吃", "农家菜", "老字号", "住宿", "避坑", "雨天备选"],
+  "status": "published",
+  "is_official": true,
+  "is_ai_generated": false,
+  "author_username": "admin"
+}

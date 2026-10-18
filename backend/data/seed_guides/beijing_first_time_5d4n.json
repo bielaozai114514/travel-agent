@@ -1,0 +1,13 @@
+{
+  "import_key": "beijing_first_time_5d4n",
+  "title": "北京第一次来五日游攻略",
+  "city": "北京",
+  "summary": "专为初次到访北京游客定制的五日完整版旅游攻略，串联天安门、故宫、天坛、颐和园、长城、南锣鼓巷等必玩地标，配套美食、住宿、地铁交通、预约须知及避坑雨天备选方案。",
+  "content_file": "beijing_first_time_5d4n.md",
+  "content_format": "markdown",
+  "tags": ["北京", "五日游", "第一次来", "天安门", "故宫", "天坛", "颐和园", "八达岭长城", "胡同游玩", "住宿", "避坑", "雨天备选"],
+  "status": "published",
+  "is_official": true,
+  "is_ai_generated": false,
+  "author_username": "admin"
+}

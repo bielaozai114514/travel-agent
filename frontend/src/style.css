@@ -1,0 +1,303 @@
+/* 全局样式优化 */
+
+/* 基础样式重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'PingFang SC', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 滚动条样式优化 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c0c4cc;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #909399;
+}
+
+/* Element Plus 全局样式覆盖 */
+
+/* 表格样式优化 */
+.el-table {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.el-table th {
+  background-color: #f8f9fa !important;
+  color: #606266;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 16px 12px !important;
+}
+
+.el-table td {
+  padding: 14px 12px !important;
+  font-size: 14px;
+  color: #606266;
+}
+
+.el-table--striped .el-table__body tr.el-table__row--striped td {
+  background-color: #fafbfc;
+}
+
+.el-table__row:hover td {
+  background-color: #f5f7fa !important;
+}
+
+/* 按钮样式优化 */
+.el-button {
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.el-button--primary {
+  background: #409eff;
+  border: none;
+}
+
+.el-button--primary:hover {
+  background: #66b1ff;
+}
+
+
+/* 分页样式优化 */
+.el-pagination {
+  padding: 20px 0;
+  justify-content: flex-end;
+}
+
+.el-pagination .el-pagination__total,
+.el-pagination .el-pagination__sizes {
+  color: #606266;
+  font-weight: 500;
+}
+
+.el-pagination .el-pager li {
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.el-pagination .el-pager li.active {
+  background: #409eff;
+  color: #fff;
+}
+
+/* 弹窗样式优化 */
+.el-dialog {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.el-dialog__header {
+  background: #fff;
+  padding: 20px 24px;
+  margin-right: 0;
+  border-bottom: 1px solid #ebeef5;
+}
+
+.el-dialog__title {
+  color: #303133;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.el-dialog__headerbtn .el-dialog__close {
+  color: #909399;
+  font-size: 18px;
+}
+
+.el-dialog__headerbtn:hover .el-dialog__close {
+  color: #606266;
+}
+
+.el-dialog__body {
+  padding: 24px;
+}
+
+.el-dialog__footer {
+  padding: 16px 24px 24px;
+  border-top: 1px solid #ebeef5;
+}
+
+/* 表单样式优化 */
+.el-form-item__label {
+  font-weight: 500;
+  color: #606266;
+}
+
+.el-input__wrapper {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.el-input__inner {
+  height: 40px;
+}
+
+/* 消息提示样式优化 */
+.el-message {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* 下拉菜单样式优化 */
+.el-dropdown-menu {
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  padding: 6px;
+}
+
+.el-dropdown-menu__item {
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.el-dropdown-menu__item:hover {
+  background-color: #f5f7fa;
+}
+
+/* 穿梭框样式优化 */
+.el-transfer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.el-transfer-panel {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  border: 1px solid #ebeef5;
+}
+
+.el-transfer-panel__header {
+  background: #f8f9fa;
+  border-radius: 12px 12px 0 0;
+  font-weight: 600;
+}
+
+.el-transfer__buttons {
+  padding: 0 20px;
+}
+
+.el-transfer__button {
+  border-radius: 8px;
+  background: #409eff;
+  border: none;
+}
+
+/* 加载动画样式优化 */
+.el-loading-mask {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2px);
+}
+
+/* 卡片样式优化 */
+.page-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+/* 页面标题样式 */
+.page-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #303133;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.page-title::before {
+  content: '';
+  width: 4px;
+  height: 24px;
+  background: #409eff;
+  border-radius: 2px;
+}
+
+/* 工具栏样式 */
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 16px 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+.toolbar-left,
+.toolbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* 状态标签样式 */
+.status-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-tag.active {
+  background: #e6f7e6;
+  color: #52c41a;
+}
+
+.status-tag.inactive {
+  background: #fff1f0;
+  color: #ff4d4f;
+}
+
+/* 操作按钮组样式 */
+.action-btns {
+  display: flex;
+  gap: 8px;
+}
+
+.action-btns .el-button {
+  padding: 8px 16px;
+}
+
+/* 空状态样式优化 */
+.el-empty {
+  padding: 60px 0;
+}
+
+.el-empty__description {
+  color: #909399;
+  font-size: 14px;
+  margin-top: 16px;
+}

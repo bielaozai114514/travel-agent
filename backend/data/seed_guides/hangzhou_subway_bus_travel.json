@@ -1,0 +1,13 @@
+{
+  "import_key": "hangzhou_subway_bus_guide",
+  "title": "杭州地铁公交出行攻略",
+  "city": "杭州",
+  "summary": "专为自由行、低预算、老人亲子游客打造的杭州公共交通出行攻略，梳理地铁覆盖景点、公交直达线路、乘车码使用、景区换乘方案，全程依靠地铁公交即可玩转杭州核心景区。",
+  "content_file": "hangzhou_subway_bus_travel.md",
+  "content_format": "markdown",
+  "tags": ["杭州", "地铁", "公交", "公共交通", "出行攻略", "西湖", "灵隐寺", "省钱出行", "住宿", "避坑", "雨天备选"],
+  "status": "published",
+  "is_official": true,
+  "author_username": "admin",
+  "is_ai_generated": false
+}

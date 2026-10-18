@@ -1,0 +1,29 @@
+{
+  "import_key": "hangzhou_citywide_avoid_pit_guide",
+  "title": "杭州旅游防坑与防骗指南",
+  "city": "杭州",
+  "summary": "面向第一次来杭州、计划游玩西湖灵隐寺、河坊街南宋御街、龙井茶文化区域以及带老人孩子出行游客的防坑指南，覆盖景区门票预约、游船选择、灵隐寺飞来峰、商业街消费、茶叶购买、餐饮交通、住宿和跟团一日游等常见风险点，帮助用户减少踩坑和冲动消费。",
+  "content_file": "hangzhou_citywide_avoid_pit_guide.md",
+  "content_format": "markdown",
+  "tags": [
+    "杭州",
+    "防坑",
+    "防骗",
+    "避坑",
+    "西湖",
+    "灵隐寺",
+    "飞来峰",
+    "河坊街",
+    "南宋御街",
+    "龙井茶",
+    "交通",
+    "购物",
+    "门票",
+    "老人",
+    "亲子"
+  ],
+  "status": "published",
+  "is_official": true,
+  "is_ai_generated": false,
+  "author_username": "admin"
+}

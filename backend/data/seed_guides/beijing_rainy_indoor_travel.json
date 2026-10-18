@@ -1,0 +1,13 @@
+{
+  "import_key": "beijing_rainy_indoor_travel",
+  "title": "北京雨天室内游攻略",
+  "city": "北京",
+  "summary": "北京专属雨天室内游玩攻略，规划全室内博物馆、古刹回廊、商圈逛吃路线，不用淋雨也能玩转京城人文与美食，配套住宿交通、美食选择和雨天专属避坑。",
+  "content_file": "beijing_rainy_indoor_travel.md",
+  "content_format": "markdown",
+  "tags": ["北京", "雨天游", "室内景点", "国家博物馆", "首都博物馆", "中国科技馆", "前门", "王府井", "避坑", "住宿"],
+  "status": "published",
+  "is_official": true,
+  "is_ai_generated": false,
+  "author_username": "admin"
+}

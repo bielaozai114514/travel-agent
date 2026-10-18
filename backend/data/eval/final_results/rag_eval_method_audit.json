@@ -1,0 +1,80 @@
+{
+  "m0_basic": {
+    "method": "m0_basic",
+    "description": "朴素向量检索。仅使用攻略正文 chunk.content 构建向量，不注入标题、城市、标签或章节信息，检索时不使用城市过滤、查询改写或规则重排序。",
+    "total_samples": 83,
+    "valid_samples": 83,
+    "error_count": 0,
+    "avg_returned@5": 5.0,
+    "avg_unique@5": 5.0,
+    "avg_precision@5_fixed": 0.3012,
+    "avg_correct_count@5": 1.506,
+    "avg_negative@5": 0.0337,
+    "under_returned_count": 0
+  },
+  "m1_enhanced": {
+    "method": "m1_enhanced",
+    "description": "增强索引向量检索。向量文本注入标题、城市、标签和章节路径，检索时使用城市过滤，不调用 LLM，不做多路召回。",
+    "total_samples": 83,
+    "valid_samples": 83,
+    "error_count": 0,
+    "avg_returned@5": 5.0,
+    "avg_unique@5": 5.0,
+    "avg_precision@5_fixed": 0.3036,
+    "avg_correct_count@5": 1.5181,
+    "avg_negative@5": 0.0072,
+    "under_returned_count": 0
+  },
+  "m3_tcr": {
+    "method": "m3_tcr",
+    "description": "TCR-RAG。使用规则查询理解、多路召回、城市约束和旅游特征加权重排序，不调用 LLM。",
+    "total_samples": 83,
+    "valid_samples": 83,
+    "error_count": 0,
+    "avg_returned@5": 4.9398,
+    "avg_unique@5": 4.9398,
+    "avg_precision@5_fixed": 0.2795,
+    "avg_correct_count@5": 1.3976,
+    "avg_negative@5": 0.0048,
+    "under_returned_count": 1
+  },
+  "m4_tcr_tuned": {
+    "method": "m4_tcr_tuned",
+    "description": "TCR-RAG 候选基础上的 guide 级聚合与规则特征增强排序，不调用 LLM。",
+    "total_samples": 83,
+    "valid_samples": 83,
+    "error_count": 0,
+    "avg_returned@5": 4.9398,
+    "avg_unique@5": 4.9398,
+    "avg_precision@5_fixed": 0.2843,
+    "avg_correct_count@5": 1.4217,
+    "avg_negative@5": 0.0048,
+    "under_returned_count": 1
+  },
+  "m5_adaptive": {
+    "method": "m5_adaptive",
+    "description": "M5 Adaptive TCR-RAG (final method): 以增强向量检索为候选基础，使用向量分数主导的轻量旅游约束校正排序（城市、标题、标签、关键词、章节）。不调用 LLM。",
+    "total_samples": 83,
+    "valid_samples": 83,
+    "error_count": 0,
+    "avg_returned@5": 4.9759,
+    "avg_unique@5": 4.9759,
+    "avg_precision@5_fixed": 0.3157,
+    "avg_correct_count@5": 1.5783,
+    "avg_negative@5": 0.0072,
+    "under_returned_count": 1
+  },
+  "m5_adaptive_v2": {
+    "method": "m5_adaptive_v2",
+    "description": "M5 Adaptive TCR-RAG v2 (ablation only): 放宽置信判断 + 先排序再去重。v2 is for ablation only, not used in production/business RAG.",
+    "total_samples": 83,
+    "valid_samples": 83,
+    "error_count": 0,
+    "avg_returned@5": 3.7229,
+    "avg_unique@5": 3.7229,
+    "avg_precision@5_fixed": 0.2843,
+    "avg_correct_count@5": 1.4217,
+    "avg_negative@5": 0.0048,
+    "under_returned_count": 54
+  }
+}

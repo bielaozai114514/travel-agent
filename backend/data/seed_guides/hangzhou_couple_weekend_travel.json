@@ -1,0 +1,13 @@
+{
+  "import_key": "hangzhou_couple_weekend_travel",
+  "title": "杭州情侣周末游攻略",
+  "city": "杭州",
+  "summary": "适合情侣双人周末短途约会的杭州两日游攻略，串联西湖浪漫线、小河直街、龙井茶园、钱江新城夜景，配套情侣餐厅、文艺住宿、交通路线以及雨天备选和实用避坑建议。",
+  "content_file": "hangzhou_couple_weekend_travel.md",
+  "content_format": "markdown",
+  "tags": ["杭州", "周末游", "情侣游", "西湖", "小河直街", "龙井村", "夜景", "拍照出片", "住宿", "避坑", "雨天备选"],
+  "status": "published",
+  "is_official": true,
+  "is_ai_generated": false,
+  "author_username": "admin"
+}

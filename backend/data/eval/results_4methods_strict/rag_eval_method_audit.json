@@ -1,0 +1,54 @@
+{
+  "m0_basic": {
+    "method": "m0_basic",
+    "description": "",
+    "total_samples": 104,
+    "valid_samples": 104,
+    "error_count": 0,
+    "avg_returned@5": 4.9904,
+    "avg_unique@5": 4.9904,
+    "avg_precision@5_fixed": 0.2462,
+    "avg_correct_count@5": 1.2308,
+    "avg_negative@5": 0.0038,
+    "under_returned_count": 1
+  },
+  "m1_enhanced": {
+    "method": "m1_enhanced",
+    "description": "M1 Enhanced RAG: 增强索引向量检索。向量文本注入标题、城市、标签和章节路径，检索时不使用城市过滤。作为消融基线，展示无城市约束时的检索效果。",
+    "total_samples": 104,
+    "valid_samples": 104,
+    "error_count": 0,
+    "avg_returned@5": 4.9904,
+    "avg_unique@5": 4.9904,
+    "avg_precision@5_fixed": 0.2577,
+    "avg_correct_count@5": 1.2885,
+    "avg_negative@5": 0.0192,
+    "under_returned_count": 1
+  },
+  "m2_tcr": {
+    "method": "m2_tcr",
+    "description": "M2 TCR-RAG: 使用规则查询理解、多路召回、强城市约束和旅游特征加权重排序，不调用 LLM。强规则约束提升了城市准确率，但破坏了语义排序质量。",
+    "total_samples": 104,
+    "valid_samples": 104,
+    "error_count": 0,
+    "avg_returned@5": 4.9519,
+    "avg_unique@5": 4.9519,
+    "avg_precision@5_fixed": 0.1923,
+    "avg_correct_count@5": 0.9615,
+    "avg_negative@5": 0.0038,
+    "under_returned_count": 1
+  },
+  "m3_adaptive": {
+    "method": "m3_adaptive",
+    "description": "M3 Adaptive TCR-RAG (final method): 以增强向量检索（无城市过滤）为候选基础，使用向量分数主导的轻量旅游约束校正排序。city_mismatch_penalty(-0.20) 解决跨城干扰，正向轻量校正(≤0.14)保留语义排序优势。不调用 LLM。",
+    "total_samples": 104,
+    "valid_samples": 104,
+    "error_count": 0,
+    "avg_returned@5": 4.9712,
+    "avg_unique@5": 4.9712,
+    "avg_precision@5_fixed": 0.2577,
+    "avg_correct_count@5": 1.2885,
+    "avg_negative@5": 0.0077,
+    "under_returned_count": 2
+  }
+}

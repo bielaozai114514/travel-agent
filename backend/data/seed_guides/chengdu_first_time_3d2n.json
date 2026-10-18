@@ -1,0 +1,13 @@
+{
+  "import_key": "chengdu_first_time_3d2n",
+  "title": "成都第一次来三日游攻略",
+  "city": "成都",
+  "summary": "专为初次到访成都游客打造的三日经典游玩攻略，覆盖宽窄巷子、锦里、武侯祠、大熊猫基地、文殊院、杜甫草堂等核心景点，配套美食、住宿、交通以及新手避坑和雨天备选方案。",
+  "content_file": "chengdu_first_time_3d2n.md",
+  "content_format": "markdown",
+  "tags": ["成都", "三日游", "第一次来", "宽窄巷子", "锦里", "大熊猫基地", "三国文化", "美食", "住宿", "避坑", "雨天备选"],
+  "status": "published",
+  "is_official": true,
+  "is_ai_generated": false,
+  "author_username": "admin"
+}

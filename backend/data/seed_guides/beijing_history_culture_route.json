@@ -1,0 +1,13 @@
+{
+  "import_key": "beijing_history_culture_route",
+  "title": "北京历史文化路线攻略",
+  "city": "北京",
+  "summary": "北京专属历史文化深度游玩攻略，规划中轴线皇家文脉、古建宗教、皇家园林三日经典路线，增补小众人文点位，配套美食住宿地铁交通、预约须知及避坑雨天方案。",
+  "content_file": "beijing_history_culture_route.md",
+  "content_format": "markdown",
+  "tags": ["北京", "历史文化", "中轴线", "故宫", "天坛", "雍和宫", "国子监", "颐和园", "胡同人文", "研学旅游", "避坑"],
+  "status": "published",
+  "is_official": true,
+  "is_ai_generated": false,
+  "author_username": "admin"
+}

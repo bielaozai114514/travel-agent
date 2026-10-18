@@ -1,0 +1,13 @@
+{
+"import_key": "hangzhou_rainy_indoor_travel",
+"title": "杭州雨天室内游玩攻略",
+"city": "杭州",
+"summary": "这是一篇面向雨天出行、偏好轻松休闲的游客的杭州室内游玩攻略，重点覆盖博物馆、商场、茶室等室内景点，并提供住宿区域、交通方式、餐饮建议和避坑提醒，适配亲子、老人等各类人群。",
+"content_file": "hangzhou_rainy_indoor_travel.md",
+"content_format": "markdown",
+"tags": ["杭州", "雨天", "室内游玩", "博物馆", "商场", "亲子友好", "老人友好", "住宿", "避坑", "雨天备选"],
+"status": "published",
+"is_official": true,
+"is_ai_generated": false,
+"author_username": "admin"
+}

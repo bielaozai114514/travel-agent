@@ -1,0 +1,24 @@
+{
+  "import_key": "xian_parent_child_travel",
+  "title": "西安亲子游攻略",
+  "city": "西安",
+  "summary": "西安亲子专属游玩攻略，平缓少走路的三日行程，适合带娃研学休闲，涵盖城墙兵马俑陕历博大唐不夜城，配套亲子美食、宜居地铁住宿、交通避坑及雨天方案。",
+  "content_file": "xian_parent_child_travel.md",
+  "content_format": "markdown",
+  "tags": [
+    "西安",
+    "亲子游",
+    "带娃旅行",
+    "兵马俑",
+    "西安城墙",
+    "陕历博",
+    "大唐不夜城",
+    "住宿",
+    "避坑",
+    "雨天备选"
+  ],
+  "status": "published",
+  "is_official": true,
+  "author_username": "admin",
+  "is_ai_generated": false
+}

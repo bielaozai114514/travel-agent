@@ -1,0 +1,13 @@
+{
+  "import_key": "xiamen_budget_travel",
+  "title": "厦门低预算旅游攻略",
+  "city": "厦门",
+  "summary": "学生党背包穷游专属厦门低预算攻略，精选大量免费打卡景点、地铁公交省钱出行、平价闽南美食、高性价比住宿，不花冤枉钱玩转厦门海岛文艺风光。",
+  "content_file": "xiamen_budget_travel.md",
+  "content_format": "markdown",
+  "tags": ["厦门", "低预算", "穷游", "免费景点", "学生旅游", "省钱攻略", "鼓浪屿", "环岛路", "住宿避坑"],
+  "status": "published",
+  "is_official": true,
+  "author_username": "admin",
+  "is_ai_generated": false
+}

@@ -1,0 +1,13 @@
+{
+  "import_key": "xiamen_rainy_day_travel",
+  "title": "厦门雨天游玩攻略",
+  "city": "厦门",
+  "summary": "厦门专属雨天游玩全攻略，规划雨天室内文创、骑楼逛吃、鼓浪屿雨游路线，配套美食住宿地铁交通、雨天安全避坑和大雨备用方案。",
+  "content_file": "xiamen_rainy_day_travel.md",
+  "content_format": "markdown",
+  "tags": ["厦门", "雨天游玩", "室内景点", "沙坡尾", "中山路", "鼓浪屿雨游", "文创园区", "避坑", "住宿推荐"],
+  "status": "published",
+  "is_official": true,
+  "author_username": "admin",
+  "is_ai_generated": false
+}

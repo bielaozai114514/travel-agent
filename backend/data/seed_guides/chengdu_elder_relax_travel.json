@@ -1,0 +1,13 @@
+{
+  "import_key": "chengdu_elder_relax_travel",
+  "title": "成都老人轻松游攻略",
+  "city": "成都",
+  "summary": "专为老人、长辈、体力一般游客打造的成都慢节奏轻松游攻略，精选平地少爬坡的古刹、园林、城市公园，搭配清淡美食、适老住宿、便捷公共交通及雨天备选、防坑提醒。",
+  "content_file": "chengdu_elder_relax_travel.md",
+  "content_format": "markdown",
+  "tags": ["成都", "老人游", "轻松慢节奏", "青羊宫", "文殊院", "浣花溪", "园林休闲", "清淡美食", "住宿", "避坑", "雨天备选"],
+  "status": "published",
+  "is_official": true,
+  "is_ai_generated": false,
+  "author_username": "admin"
+}

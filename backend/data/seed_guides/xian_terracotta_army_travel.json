@@ -1,0 +1,13 @@
+{
+  "import_key": "xian_terracotta_army_travel",
+  "title": "西安兵马俑游玩攻略",
+  "city": "西安",
+  "summary": "西安秦始皇兵马俑专属游玩攻略，包含最优游览路线、必看展馆、交通方式、美食住宿、讲解选择，以及路边套路防坑和雨天游玩方案。",
+  "content_file": "xian_terracotta_army_travel.md",
+  "content_format": "markdown",
+  "tags": ["西安", "兵马俑", "秦始皇陵", "历史古迹", "研学旅游", "游玩路线", "交通攻略", "避坑", "雨天备选"],
+  "status": "published",
+  "is_official": true,
+  "author_username": "admin",
+  "is_ai_generated": false
+}

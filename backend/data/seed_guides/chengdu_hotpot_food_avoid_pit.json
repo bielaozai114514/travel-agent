@@ -1,0 +1,13 @@
+{
+  "import_key": "chengdu_hotpot_food_avoid_pit",
+  "title": "成都美食火锅避坑攻略",
+  "city": "成都",
+  "summary": "成都专属美食火锅避坑攻略，教游客怎么选正宗火锅、避开景区套路店、适合不吃辣人群点餐建议，同时配套美食路线、住宿交通、小吃推荐和实用防坑要点。",
+  "content_file": "chengdu_hotpot_food_avoid_pit.md",
+  "content_format": "markdown",
+  "tags": ["成都", "美食", "火锅", "川菜", "串串", "小吃", "避坑", "网红餐厅", "本地人推荐", "雨天备选"],
+  "status": "published",
+  "is_official": true,
+  "is_ai_generated": false,
+  "author_username": "admin"
+}

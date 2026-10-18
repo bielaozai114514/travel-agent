@@ -1,0 +1,102 @@
+
+version: '3.8'
+
+services:
+  # MySQL 数据库
+  mysql:
+    image: mysql:8.0
+    container_name: travelagent-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-root123456}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-travel_agent}
+      MYSQL_USER: ${MYSQL_USER:-travel}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-travel123456}
+    ports:
+      # 宿主机端口:容器内部端口（内部端口保持3306不变）
+      - "3307:3306"
+    volumes:
+      - travelagent-mysql-data:/var/lib/mysql
+    networks:
+      - travelagent-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${MYSQL_ROOT_PASSWORD:-root123456}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  # Qdrant 向量数据库
+  qdrant:
+    image: qdrant/qdrant:v1.17.0
+    container_name: travelagent-qdrant
+    ports:
+      # 宿主机端口:容器内部端口（内部端口保持不变）
+      - "6335:6333"
+      - "6336:6334"
+    volumes:
+      - travelagent-qdrant-data:/qdrant/storage
+    networks:
+      - travelagent-network
+    # 健康检查（如果启动有问题可以注释掉）
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:6333/healthz"]
+      interval: 15s
+      timeout: 15s
+      retries: 20
+      start_period: 60s
+
+  # Backend 服务
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: travelagent-backend
+    environment:
+      - ENV_FOR_DYNACONF=.env.docker
+    env_file:
+      - .env.docker
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - /app/__pycache__
+      - /app/.venv
+    networks:
+      - travelagent-network
+    depends_on:
+      mysql:
+        condition: service_healthy
+      qdrant:
+        condition: service_started  # 只等启动，不等健康检查
+
+  # Frontend 服务
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: travelagent-frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    networks:
+      - travelagent-network
+    depends_on:
+      - backend
+    environment:
+      - VITE_API_BASE_URL=http://localhost:8000/api
+
+# 数据持久化卷
+volumes:
+  travelagent-mysql-data:
+    name: travelagent-mysql-data
+  travelagent-qdrant-data:
+    name: travelagent-qdrant-data
+
+# 网络配置
+networks:
+  travelagent-network:
+    name: travelagent-network
+    driver: bridge
+

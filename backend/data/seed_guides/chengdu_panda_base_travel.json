@@ -1,0 +1,13 @@
+{
+  "import_key": "chengdu_panda_base_travel",
+  "title": "成都大熊猫基地游玩攻略",
+  "city": "成都",
+  "summary": "成都大熊猫基地专属游玩攻略，包含最佳入园时间、省力游览路线、熊猫观赏点位、园区交通、周边美食住宿，以及防坑要点和雨天游玩替代方案，适合亲子老人和初次游客。",
+  "content_file": "chengdu_panda_base_travel.md",
+  "content_format": "markdown",
+  "tags": ["成都", "大熊猫基地", "小熊猫", "萌宠游玩", "亲子友好", "老人轻松游", "观光路线", "住宿", "避坑", "雨天备选"],
+  "status": "published",
+  "is_official": true,
+  "is_ai_generated": false,
+  "author_username": "admin"
+}

@@ -1,0 +1,13 @@
+{
+    "import_key": "hangzhou_accommodation_area_guide",
+    "title": "杭州住宿区域选择攻略",
+    "city": "杭州",
+    "summary": "面向第一次来杭州、老人亲子出行、情侣周末游、预算有限游客和高铁中转游客的住宿区域选择攻略，覆盖湖滨与西湖东线、武林广场与凤起路、黄龙文教区、城站、杭州东站、钱江新城、西溪蒋村等住宿区域，帮助用户根据行程重心、人群需求和交通便利性选择合适住宿。",
+    "content_file": "hangzhou_accommodation_area_guide.md",
+    "content_format": "markdown",
+    "tags": ["杭州","住宿","酒店","区域选择","西湖","湖滨","武林广场","凤起路","黄龙","杭州东站","城站","钱江新城","西溪","老人","亲子"],
+    "status": "published",
+    "is_official": true,
+    "is_ai_generated": false,
+    "author_username": "admin"
+}

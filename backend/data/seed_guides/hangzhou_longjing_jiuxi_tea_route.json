@@ -1,0 +1,29 @@
+{
+  "import_key": "hangzhou_longjing_jiuxi_tea_route",
+  "title": "杭州龙井九溪茶文化轻徒步攻略",
+  "city": "杭州",
+  "summary": "面向二刷杭州、情侣慢游、亲子自然观察、老人轻松游和春秋季轻徒步游客的龙井九溪茶文化路线攻略，覆盖中国茶叶博物馆、龙井村、九溪烟树、九溪十八涧、梅家坞、满觉陇等区域，帮助用户在西湖核心区之外体验杭州茶园、山林、溪水和慢生活。",
+  "content_file": "hangzhou_longjing_jiuxi_tea_route.md",
+  "content_format": "markdown",
+  "tags": [
+    "杭州",
+    "龙井",
+    "九溪",
+    "茶文化",
+    "轻徒步",
+    "中国茶叶博物馆",
+    "龙井村",
+    "九溪烟树",
+    "九溪十八涧",
+    "梅家坞",
+    "满觉陇",
+    "自然风景",
+    "情侣",
+    "亲子",
+    "老人"
+  ],
+  "status": "published",
+  "is_official": true,
+  "is_ai_generated": false,
+  "author_username": "admin"
+}

@@ -1,0 +1,4 @@
+{"id": "RAG-BJ-001", "query": "故宫怎么预约门票，难不难抢", "reason": "多意图: ['天安门', '预算']", "positive_titles": ["北京故宫游玩与预约攻略", "北京天安门升旗与中轴线游玩攻略", "北京低预算游玩攻略"], "acceptable_titles": [], "must_title": "北京故宫游玩与预约攻略"}
+{"id": "RAG-BJ-010", "query": "长城去哪段好，交通怎么去", "reason": "多意图: ['地铁', '长城']", "positive_titles": ["北京第一次来五日游攻略", "北京长城游玩与交通攻略", "北京地铁出行攻略"], "acceptable_titles": [], "must_title": "北京第一次来五日游攻略"}
+{"id": "RAG-XM-006", "query": "鼓浪屿上面住还是不住好，有避坑的吗", "reason": "多意图: ['鼓浪屿', '防骗']", "positive_titles": ["厦门住宿区域选择攻略", "厦门旅游防坑与防骗指南", "厦门鼓浪屿游玩攻略"], "acceptable_titles": [], "must_title": "厦门住宿区域选择攻略"}
+{"id": "RAG-CROSS-007", "query": "古城古镇怎么玩不踩坑", "reason": "多意图: ['鼓浪屿', '宽窄巷子']", "positive_titles": ["成都宽窄巷子与锦里避坑攻略", "厦门鼓浪屿游玩攻略"], "acceptable_titles": [], "must_title": ""}

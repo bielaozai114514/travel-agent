@@ -1,0 +1,13 @@
+{
+  "import_key": "xiamen_parent_child_travel",
+  "title": "厦门亲子游攻略",
+  "city": "厦门",
+  "summary": "厦门专属亲子游玩攻略，低步行平缓三日行程，适配老人小孩，涵盖鼓浪屿、厦大沙滩、植物园、文创美食，配套住宿交通、亲子用餐及雨天备用方案。",
+  "content_file": "xiamen_parent_child_travel.md",
+  "content_format": "markdown",
+  "tags": ["厦门", "亲子游", "带娃旅行", "鼓浪屿", "环岛路", "厦门植物园", "曾厝垵", "住宿避坑", "雨天游玩"],
+  "status": "published",
+  "is_official": true,
+  "author_username": "admin",
+  "is_ai_generated": false
+}

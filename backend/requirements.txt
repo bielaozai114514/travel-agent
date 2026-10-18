@@ -1,0 +1,44 @@
+fastapi==0.121.2
+uvicorn==0.38.0
+# langchain==1.1.0
+# langchain-openai==1.1.0
+# langchain-community==0.4.1
+python-dotenv==1.2.1
+pydantic==2.12.4
+pydantic-settings==2.12.0
+alembic==1.13.1
+python-multipart==0.0.21
+pyjwt==2.10.1
+pwdlib==0.3.0
+pwdlib[argon2]
+dotenv
+
+# 雪花ID生成
+snowflake-id==1.0.2
+
+# EsAgent 模块依赖
+openai>=1.0.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# MCP 协议支持（可选）
+fastmcp>=2.0.0
+
+# MCP 服务器运行工具
+uv>=0.8.0
+
+# 异步 MySQL 驱动
+aiomysql>=0.2.0
+
+# # RAG系统依赖
+sentence-transformers>=2.2.0
+qdrant-client>=1.7.0
+markitdown>=0.0.1
+
+# 测试依赖
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+pytest-env>=1.1.0
+httpx>=0.27.0
+faker>=25.0.0

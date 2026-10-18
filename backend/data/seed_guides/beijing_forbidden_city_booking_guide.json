@@ -1,0 +1,13 @@
+{
+  "import_key": "beijing_forbidden_city_booking_guide",
+  "title": "北京故宫游玩与预约攻略",
+  "city": "北京",
+  "summary": "北京故宫专属游玩预约攻略，包含门票预约规则、单向游览路线、必看展馆、省力动线、周边美食住宿交通，以及门票预约防坑、路边套路避坑和雨天游玩方案。",
+  "content_file": "beijing_forbidden_city_booking_guide.md",
+  "content_format": "markdown",
+  "tags": ["北京", "故宫", "紫禁城", "预约攻略", "中轴线", "珍宝馆", "钟表馆", "历史人文", "住宿", "避坑", "雨天备选"],
+  "status": "published",
+  "is_official": true,
+  "is_ai_generated": false,
+  "author_username": "admin"
+}
